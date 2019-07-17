@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import ' ./scopedmodel/CountDown.dart';
+import ' ./scopedmodel/MyApp.dart';
 
-
-import 'grandparent.dart';
 void main() {
-  // runApp(MyApp(new CountDown()));
-  runApp(GrandParent());
+  runApp(MyApp(new CountDown()));
+ 
 
 }
