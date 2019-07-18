@@ -4,6 +4,4 @@ import ' ./scopedmodel/MyApp.dart';
 
 void main() {
   runApp(MyApp(new CountDown()));
- 
-
-}
+ }
